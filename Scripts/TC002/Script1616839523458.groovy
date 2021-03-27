@@ -30,13 +30,13 @@ WebUI.setText(findTestObject('Service NSW Object/input_Service NSW makes it easi
 
 WebUI.click(findTestObject('Service NSW Object/button_apply for a number plate_button button--primary'))
 
-WebUI.scrollToElement(findTestObject('null'), 0)
+WebUI.scrollToElement(findTestObject('Service NSW Object/div_ 87 results found'), 0)
 
 WebUI.click(findTestObject('Service NSW Object/a_Apply for a number plate'))
 
 WebUI.click(findTestObject('Object Repository/Service NSW Object/a_Find locations'))
 
-WebUI.scrollToElement(findTestObject('null'), 0)
+WebUI.scrollToElement(findTestObject('Service NSW Object/div_ search by suburb'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'), 
     suburb)
@@ -45,5 +45,5 @@ WebUI.click(findTestObject('Object Repository/Service NSW Object/button_Sydney S
 
 WebUI.click(findTestObject('Object Repository/Service NSW Object/button_Service Centres'))
 
-WebUI.scrollToElement(findTestObject('null'), 0)
+WebUI.scrollToElement(findTestObject('Service NSW Object/h2_6 Service NSW locations'), 0)
 

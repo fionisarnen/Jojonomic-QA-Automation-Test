@@ -1,0 +1,317 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001,Chrome 89.0.4389.90,Data driven test for finding service centre around the several suburb names in the data files,,2021-03-27 19:11:49,2021-03-27 19:20:19,8m - 29.847s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:11:53,2021-03-27 19:12:27,34.638s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:11:54,2021-03-27 19:11:58,4.593s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:11:58,2021-03-27 19:11:59,0.776s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:11:59,2021-03-27 19:12:02,3.339s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:02,2021-03-27 19:12:04,1.381s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:12:04,2021-03-27 19:12:06,2.085s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:06,2021-03-27 19:12:08,2.530s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:08,2021-03-27 19:12:09,1.103s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:09,2021-03-27 19:12:14,4.199s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:14,2021-03-27 19:12:18,4.694s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:18,2021-03-27 19:12:22,4.029s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:12:22,2021-03-27 19:12:23,1.117s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:23,2021-03-27 19:12:24,0.785s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:24,2021-03-27 19:12:27,2.458s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:27,2021-03-27 19:12:27,0.605s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:12:27,2021-03-27 19:12:57,29.873s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:12:27,2021-03-27 19:12:30,2.967s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:12:30,2021-03-27 19:12:31,0.198s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:12:31,2021-03-27 19:12:35,4.482s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:35,2021-03-27 19:12:37,2.044s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:12:37,2021-03-27 19:12:39,1.511s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:39,2021-03-27 19:12:42,3.606s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:42,2021-03-27 19:12:43,0.668s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:43,2021-03-27 19:12:46,3.117s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:46,2021-03-27 19:12:50,4.297s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:50,2021-03-27 19:12:51,0.857s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:12:51,2021-03-27 19:12:54,2.835s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:54,2021-03-27 19:12:55,0.612s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:12:55,2021-03-27 19:12:57,2.125s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:12:57,2021-03-27 19:12:57,0.514s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:12:57,2021-03-27 19:14:17,1m - 19.935s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:12:57,2021-03-27 19:13:00,2.614s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:13:00,2021-03-27 19:13:00,0.179s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:13:00,2021-03-27 19:13:18,18.017s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:13:18,2021-03-27 19:13:19,1.288s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:13:19,2021-03-27 19:13:21,1.716s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:13:21,2021-03-27 19:13:59,38.345s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:13:59,2021-03-27 19:14:00,0.632s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:00,2021-03-27 19:14:05,5.171s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:05,2021-03-27 19:14:07,2.204s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:07,2021-03-27 19:14:10,2.744s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:14:10,2021-03-27 19:14:13,2.882s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:13,2021-03-27 19:14:14,0.760s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:14,2021-03-27 19:14:17,2.790s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:17,2021-03-27 19:14:17,0.563s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:14:17,2021-03-27 19:14:47,29.519s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:14:17,2021-03-27 19:14:20,2.966s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:14:20,2021-03-27 19:14:21,0.168s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:14:21,2021-03-27 19:14:24,3.913s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:24,2021-03-27 19:14:26,1.574s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:14:26,2021-03-27 19:14:27,1.125s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:27,2021-03-27 19:14:31,3.987s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:31,2021-03-27 19:14:33,1.411s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:33,2021-03-27 19:14:36,3.664s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:36,2021-03-27 19:14:39,2.868s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:39,2021-03-27 19:14:42,2.957s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:14:42,2021-03-27 19:14:43,1.065s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:43,2021-03-27 19:14:44,0.548s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:44,2021-03-27 19:14:46,2.724s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:46,2021-03-27 19:14:47,0.480s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:14:47,2021-03-27 19:15:13,26.106s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:14:47,2021-03-27 19:14:49,2.380s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:14:49,2021-03-27 19:14:49,0.170s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:14:49,2021-03-27 19:14:53,3.709s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:53,2021-03-27 19:14:54,1.079s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:14:54,2021-03-27 19:14:56,1.674s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:14:56,2021-03-27 19:14:59,3.314s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:14:59,2021-03-27 19:15:00,0.498s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:00,2021-03-27 19:15:03,3.313s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:03,2021-03-27 19:15:05,2.131s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:05,2021-03-27 19:15:08,2.897s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:15:08,2021-03-27 19:15:09,0.917s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:09,2021-03-27 19:15:10,0.752s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:10,2021-03-27 19:15:12,2.684s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:12,2021-03-27 19:15:13,0.548s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:15:13,2021-03-27 19:15:38,24.999s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:15:13,2021-03-27 19:15:16,2.426s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:15:16,2021-03-27 19:15:16,0.188s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:15:16,2021-03-27 19:15:20,3.784s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:20,2021-03-27 19:15:21,1.969s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:15:21,2021-03-27 19:15:22,1.016s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:22,2021-03-27 19:15:25,2.704s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:25,2021-03-27 19:15:26,0.711s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:26,2021-03-27 19:15:29,2.907s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:29,2021-03-27 19:15:31,1.780s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:31,2021-03-27 19:15:34,3.142s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:15:34,2021-03-27 19:15:35,0.857s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:35,2021-03-27 19:15:35,0.542s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:35,2021-03-27 19:15:38,2.364s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:38,2021-03-27 19:15:38,0.523s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:15:38,2021-03-27 19:16:03,25.352s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:15:38,2021-03-27 19:15:41,2.555s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:15:41,2021-03-27 19:15:41,0.175s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:15:41,2021-03-27 19:15:44,3.272s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:44,2021-03-27 19:15:45,1.082s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:15:45,2021-03-27 19:15:47,1.535s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:47,2021-03-27 19:15:50,3.344s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:50,2021-03-27 19:15:51,0.593s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:51,2021-03-27 19:15:54,3.644s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:15:54,2021-03-27 19:15:56,1.926s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:15:56,2021-03-27 19:16:00,3.464s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:16:00,2021-03-27 19:16:01,0.837s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:01,2021-03-27 19:16:01,0.505s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:01,2021-03-27 19:16:03,1.876s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:03,2021-03-27 19:16:03,0.513s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:16:03,2021-03-27 19:16:28,24.817s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:16:04,2021-03-27 19:16:06,2.402s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:16:06,2021-03-27 19:16:06,0.190s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:16:06,2021-03-27 19:16:10,3.524s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:10,2021-03-27 19:16:11,1.083s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:16:11,2021-03-27 19:16:12,1.601s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:12,2021-03-27 19:16:15,2.850s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:15,2021-03-27 19:16:16,0.847s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:16,2021-03-27 19:16:19,2.928s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:19,2021-03-27 19:16:21,1.642s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:21,2021-03-27 19:16:23,2.903s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:16:23,2021-03-27 19:16:24,0.872s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:24,2021-03-27 19:16:25,0.554s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:25,2021-03-27 19:16:28,2.924s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:28,2021-03-27 19:16:28,0.470s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:16:28,2021-03-27 19:16:56,27.629s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:16:28,2021-03-27 19:16:31,2.332s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:16:31,2021-03-27 19:16:31,0.233s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:16:31,2021-03-27 19:16:36,5.199s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:36,2021-03-27 19:16:37,1.113s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:16:37,2021-03-27 19:16:39,1.442s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:39,2021-03-27 19:16:42,3.405s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:42,2021-03-27 19:16:43,0.504s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:43,2021-03-27 19:16:46,3.268s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:46,2021-03-27 19:16:48,2.070s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:48,2021-03-27 19:16:52,3.648s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:16:52,2021-03-27 19:16:53,0.920s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:53,2021-03-27 19:16:53,0.650s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:16:53,2021-03-27 19:16:55,1.837s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:16:55,2021-03-27 19:16:56,0.880s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:16:56,2021-03-27 19:17:29,32.542s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:16:56,2021-03-27 19:16:59,2.522s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:16:59,2021-03-27 19:16:59,0.203s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:16:59,2021-03-27 19:17:03,3.792s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:03,2021-03-27 19:17:04,1.161s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:17:04,2021-03-27 19:17:06,1.850s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:06,2021-03-27 19:17:10,4.319s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:10,2021-03-27 19:17:10,0.478s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:10,2021-03-27 19:17:19,8.329s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:19,2021-03-27 19:17:21,2.324s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:21,2021-03-27 19:17:24,3.263s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:17:24,2021-03-27 19:17:25,0.831s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:25,2021-03-27 19:17:26,0.639s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:26,2021-03-27 19:17:28,2.249s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:28,2021-03-27 19:17:29,0.561s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:17:29,2021-03-27 19:17:55,26.091s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:17:29,2021-03-27 19:17:31,2.498s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:17:31,2021-03-27 19:17:31,0.216s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:17:31,2021-03-27 19:17:35,3.426s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:35,2021-03-27 19:17:37,2.556s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:17:37,2021-03-27 19:17:38,0.903s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:38,2021-03-27 19:17:41,2.879s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:41,2021-03-27 19:17:42,0.879s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:42,2021-03-27 19:17:45,3.259s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:45,2021-03-27 19:17:47,2.133s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:47,2021-03-27 19:17:51,3.575s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:17:51,2021-03-27 19:17:52,0.927s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:52,2021-03-27 19:17:52,0.537s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:17:52,2021-03-27 19:17:54,1.295s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:17:54,2021-03-27 19:17:55,0.986s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:17:55,2021-03-27 19:18:23,27.920s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:17:55,2021-03-27 19:17:57,2.635s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:17:57,2021-03-27 19:17:58,0.193s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:17:58,2021-03-27 19:18:01,3.054s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:01,2021-03-27 19:18:02,1.133s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:18:02,2021-03-27 19:18:03,1.403s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:03,2021-03-27 19:18:08,4.342s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:18:08,2021-03-27 19:18:08,0.487s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:08,2021-03-27 19:18:12,3.970s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:12,2021-03-27 19:18:15,3.038s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:18:15,2021-03-27 19:18:16,1.457s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:18:16,2021-03-27 19:18:19,2.812s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:19,2021-03-27 19:18:20,0.523s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:20,2021-03-27 19:18:22,2.001s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:18:22,2021-03-27 19:18:23,0.847s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:18:23,2021-03-27 19:19:01,38.090s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:18:23,2021-03-27 19:18:25,2.653s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:18:25,2021-03-27 19:18:26,0.199s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:18:26,2021-03-27 19:18:31,5.097s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:31,2021-03-27 19:18:32,0.997s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:18:32,2021-03-27 19:18:33,1.466s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:33,2021-03-27 19:18:36,3.086s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:18:36,2021-03-27 19:18:37,0.788s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:37,2021-03-27 19:18:41,3.763s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:41,2021-03-27 19:18:47,6.265s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:18:47,2021-03-27 19:18:55,8.014s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:18:55,2021-03-27 19:18:58,2.503s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:58,2021-03-27 19:18:58,0.819s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:18:58,2021-03-27 19:19:00,1.943s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:19:00,2021-03-27 19:19:01,0.481s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:19:01,2021-03-27 19:19:27,25.922s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:19:01,2021-03-27 19:19:03,2.617s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:19:03,2021-03-27 19:19:04,0.171s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:19:04,2021-03-27 19:19:07,3.019s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:07,2021-03-27 19:19:09,2.054s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:19:09,2021-03-27 19:19:10,0.956s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:10,2021-03-27 19:19:13,3.337s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:19:13,2021-03-27 19:19:14,0.793s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:14,2021-03-27 19:19:17,3.626s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:17,2021-03-27 19:19:20,2.113s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:19:20,2021-03-27 19:19:22,2.015s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:19:22,2021-03-27 19:19:24,2.539s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:24,2021-03-27 19:19:25,0.583s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:25,2021-03-27 19:19:26,1.588s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:19:26,2021-03-27 19:19:27,0.493s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 89.0.4389.90,"Step 1-Navigate to given URL
+Step 2-Search for given keyword
+Step 3-Click on find location 
+Step 4-Enter suburb name
+Step 5-Filtered to only show service centre name
+Step 6-Click one of service centre name",,2021-03-27 19:19:27,2021-03-27 19:20:19,52.158s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-27 19:19:27,2021-03-27 19:19:29,2.557s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-27 19:19:29,2021-03-27 19:19:30,0.190s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/"")",Chrome 89.0.4389.90,,,2021-03-27 19:19:30,2021-03-27 19:19:42,12.380s,PASSED
+"click(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:42,2021-03-27 19:19:43,1.123s,PASSED
+"setText(findTestObject(""Service NSW Object/input_Service NSW makes it easier to find government information and services_q""), ""Apply for a number plate"")",Chrome 89.0.4389.90,,,2021-03-27 19:19:43,2021-03-27 19:19:45,1.830s,PASSED
+"click(findTestObject(""Service NSW Object/button_apply for a number plate_button button--primary""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:45,2021-03-27 19:19:51,6.110s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ 87 results found""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:19:51,2021-03-27 19:19:52,1.323s,PASSED
+"click(findTestObject(""Service NSW Object/a_Apply for a number plate""))",Chrome 89.0.4389.90,,,2021-03-27 19:19:52,2021-03-27 19:20:00,7.254s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/a_Find locations""))",Chrome 89.0.4389.90,,,2021-03-27 19:20:00,2021-03-27 19:20:04,4.804s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/div_ search by suburb""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:20:04,2021-03-27 19:20:14,9.123s,PASSED
+"setText(findTestObject(""Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf""), suburb)",Chrome 89.0.4389.90,,,2021-03-27 19:20:14,2021-03-27 19:20:14,0.922s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898""))",Chrome 89.0.4389.90,,,2021-03-27 19:20:14,2021-03-27 19:20:16,1.956s,PASSED
+"click(findTestObject(""Object Repository/Service NSW Object/button_Service Centres""))",Chrome 89.0.4389.90,,,2021-03-27 19:20:16,2021-03-27 19:20:18,1.933s,PASSED
+"scrollToElement(findTestObject(""Service NSW Object/h2_6 Service NSW locations""), 0)",Chrome 89.0.4389.90,,,2021-03-27 19:20:18,2021-03-27 19:20:19,0.601s,PASSED
