@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001" time="514.848" tests="15" failures="0" skips="0" errors="0">
+   <testsuite name="TS001" tests="15" failures="0" errors="0" time="514.848" skips="0" timestamp="2021-03-27 17:47:47" hostname="Fioni - DESKTOP-RP318JO" id="Test Suites/TS001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fioni\\git\\Jojonomic-QA-Automation-Test\\Reports\\20210327_174741\\TS001\\20210327_174742"/>
+         <property name="logFiles" value="C:\\Users\\Fioni\\git\\Jojonomic-QA-Automation-Test\\Reports\\20210327_174741\\TS001\\20210327_174742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fioni - DESKTOP-RP318JO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.43.246"/>
+         <property name="sessionId" value="7075fb6fa0c11b18da4df4e0acd08283"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC002" time="27.033" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:47:49 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:47:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:47:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:47:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:47:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:47:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:47:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:47:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:47:57 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:00 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:48:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:48:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Adamstown 2289' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:48:13 - [MESSAGE][PASSED] - Text 'Adamstown 2289' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="25.236" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:48:16 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:48:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:48:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:48:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:48:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:48:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:48:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:48:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:48:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:48:22 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:25 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:48:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Arcadia 2159' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:48:38 - [MESSAGE][PASSED] - Text 'Arcadia 2159' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:48:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="24.557" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:48:41 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:48:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:48:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:48:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:48:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:48:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:48:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:48:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:48:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:48:48 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:48:49 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:51 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:48:51 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:48:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:48:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:48:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Padstow 2211' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:49:03 - [MESSAGE][PASSED] - Text 'Padstow 2211' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="27.49" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:49:06 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:49:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:49:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:49:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:49:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:49:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:49:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:49:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:49:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:49:14 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:49:15 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:49:17 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:49:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:49:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:49:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:49:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Wadalba 2259' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:49:30 - [MESSAGE][PASSED] - Text 'Wadalba 2259' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="41.52" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:49:34 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:49:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:49:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:49:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:49:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:49:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:49:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:49:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:49:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:49:41 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:49:44 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:49:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:49:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:50:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Redhead 2290' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:50:12 - [MESSAGE][PASSED] - Text 'Redhead 2290' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:50:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:50:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="28.328" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:50:15 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:50:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:50:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:50:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:50:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:50:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:50:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:50:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:50:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:50:23 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:50:24 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:50:26 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:50:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:50:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:50:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Adelaide 5000' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:50:41 - [MESSAGE][PASSED] - Text 'Adelaide 5000' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="46.578" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:50:44 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:50:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:50:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:50:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:50:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:50:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:50:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:50:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:50:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:50:55 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:50:58 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:51:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:51:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:51:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Adelaide Park 4703' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:51:25 - [MESSAGE][PASSED] - Text 'Adelaide Park 4703' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="66.282" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:51:30 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:51:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:51:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:51:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:51:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:51:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:51:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:51:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:51:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:51:40 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:51:41 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:51:43 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:51:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:51:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:51:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:51:48 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:51:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:52:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Sydney Olympic Park 2127' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:52:33 - [MESSAGE][PASSED] - Text 'Sydney Olympic Park 2127' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="24.14" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:52:36 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:52:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:52:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:52:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:52:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:52:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:52:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:52:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:52:43 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:52:46 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:52:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:52:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:52:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Sydney South 2000' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:52:58 - [MESSAGE][PASSED] - Text 'Sydney South 2000' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="27.277" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:53:01 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:53:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:53:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:53:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:53:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:53:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:53:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:53:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:53:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:53:08 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:53:09 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:53:12 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:53:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:53:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:53:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Sydney University 2006' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:53:24 - [MESSAGE][PASSED] - Text 'Sydney University 2006' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:53:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="52.182" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:53:28 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:53:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:53:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:53:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:53:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:53:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:53:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:53:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:53:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:53:38 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:53:39 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:53:40 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:53:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:53:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Sydney Olympic Park 2127' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:54:17 - [MESSAGE][PASSED] - Text 'Sydney Olympic Park 2127' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="31.781" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:54:20 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:54:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:54:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:54:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:54:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:54:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:54:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:54:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:54:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:54:31 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:54:35 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:54:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:54:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:54:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Sydney International Airport 2020' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:54:49 - [MESSAGE][PASSED] - Text 'Sydney International Airport 2020' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="26.421" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:54:52 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:54:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:54:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:54:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:54:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:54:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:54:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:54:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:54:59 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:55:01 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:55:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:55:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'Unsw Sydney 2052' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:55:15 - [MESSAGE][PASSED] - Text 'Unsw Sydney 2052' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="25.121" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:55:19 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:55:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:55:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:55:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:55:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:55:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:55:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:55:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:55:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:55:25 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:55:27 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:55:29 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:55:29 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:55:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:55:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'North Sydney 2060' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:55:41 - [MESSAGE][PASSED] - Text 'North Sydney 2060' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002" time="36.057" classname="Test Cases/TC002" status="PASSED">
+         <system-out><![CDATA[2021-03-27 17:55:44 - [TEST_CASE][PASSED] - Test Cases/TC002: Test Cases/TC002
+
+2021-03-27 17:55:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-27 17:55:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-27 17:55:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-27 17:55:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-27 17:55:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-27 17:55:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-27 17:55:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-27 17:55:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/"): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:55:59 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2021-03-27 17:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q")): Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q' is clicked on
+
+2021-03-27 17:56:00 - [TEST_STEP][PASSED] - setText(findTestObject("Service NSW Object/input_Service NSW makes it easier to find government information and services_q"), "Apply for a number plate"): Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:56:01 - [MESSAGE][PASSED] - Text 'Apply for a number plate' is set on object 'Object Repository/Service NSW Object/input_Service NSW makes it easier to find government information and services_q'
+
+2021-03-27 17:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/button_apply for a number plate_button button--primary")): Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_apply for a number plate_button button--primary' is clicked on
+
+2021-03-27 17:56:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Service NSW Object/div_87 results found"), 0): Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:56:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-27 17:56:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service NSW Object/div_87 results found' successfully
+
+2021-03-27 17:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Service NSW Object/a_Apply for a number plate")): Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Apply for a number plate' is clicked on
+
+2021-03-27 17:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/a_Find locations")): Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/a_Find locations' is clicked on
+
+2021-03-27 17:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf"), suburb): Text 'The University Of Sydney 2006' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:56:17 - [MESSAGE][PASSED] - Text 'The University Of Sydney 2006' is set on object 'Object Repository/Service NSW Object/input_Search by suburb, postcode or current_d530bf'
+
+2021-03-27 17:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898")): Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Sydney South 2000_button button--pri_c5c898' is clicked on
+
+2021-03-27 17:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Service NSW Object/button_Service Centres")): Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on
+
+2021-03-27 17:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Service NSW Object/button_Service Centres' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-27 17:47:47 - [TEST_SUITE][PASSED] - TS001: Test Cases/TC002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
