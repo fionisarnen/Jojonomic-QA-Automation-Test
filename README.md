@@ -12,9 +12,9 @@ On the main toolbar, select the Git icon > Clone Project.
  Enter your github credential
 
 * Run Automation Test
-I've created 2 Test case (detail avout test case you can see at the description (Click on one of test case-Properties)
-You can run Test case with ID TC001 right away
-You can run Test case with ID TC002 from test suite (data driven testing, data test all binded and ready to run)
+1. I've created 2 Test case (detail avout test case you can see at the description (Click on one of test case-Properties)
+2. You can run Test case with ID TC001 right away
+3. You can run Test case with ID TC002 from test suite (data driven testing, data test all binded and ready to run)
 
 
 
