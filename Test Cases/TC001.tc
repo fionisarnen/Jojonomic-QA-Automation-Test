@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Step 1-Navigate to given URL
+Step 2-Search for given keyword</description>
+   <name>TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b7f3529-bf8e-4a33-9771-d2cf3a92d4af</testCaseGuid>
+</TestCaseEntity>
