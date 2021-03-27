@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Service NSW Object/input_Service NSW makes it easi
 
 WebUI.click(findTestObject('Service NSW Object/button_apply for a number plate_button button--primary'))
 
-WebUI.scrollToElement(findTestObject('Service NSW Object/div_87 results found'), 0)
+WebUI.scrollToElement(findTestObject('Service NSW Object/div_ 87 results found'), 0)
 
 WebUI.click(findTestObject('Object Repository/Service NSW Object/a_Apply for a number plate'))
 

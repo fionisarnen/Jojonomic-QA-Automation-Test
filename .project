@@ -34,5 +34,41 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+		<filter>
+			<id>1616844945524</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1616844945632</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1616846001574</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1616846001584</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
 	</filteredResources>
 </projectDescription>

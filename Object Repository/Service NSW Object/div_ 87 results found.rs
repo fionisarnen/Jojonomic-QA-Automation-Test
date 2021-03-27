@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_87 results found</name>
+   <name>div_ 87 results found</name>
    <tag></tag>
-   <elementGuidId>f7ae1110-7a20-42c3-aaac-0f0413f3dc9a</elementGuidId>
+   <elementGuidId>186dba94-2528-49bd-9c13-af6651cfc168</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
