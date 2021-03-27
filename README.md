@@ -10,6 +10,7 @@ After enabling Git Integration, you can clone an existing Git repository into a 
 On the main toolbar, select the Git icon > Clone Project.
  Enter this repository link
  Enter your github credential
+ Full tutorial on: https://docs.katalon.com/katalon-studio/docs/git-integration.html#clone-a-katalon-studio-project-from-a-git-repository
 
 * Run Automation Test
 1. I've created 2 Test case (detail avout test case you can see at the description (Click on one of test case-Properties)
